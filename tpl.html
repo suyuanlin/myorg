@@ -1,0 +1,18 @@
+<div class="panel panel-default">
+    <!-- Default panel contents -->
+    <div class="panel-heading">{{mediaContent.title}}</div>
+
+    <div class="panel-body">
+        <p>作者：{{mediaContent.auth}}|| 创建时间：{{mediaContent.createTime}}||标签：{{mediaContent.tags}}</p>
+    </div>
+
+    <div class="row">
+        <div class="col-md-3">
+            <img ng-src="{{mediaContent.imgurl}}" class="tpl-left-15" style="max-height: 500px;max-width: 336px" />
+        </div>
+        <div class="col-md-9">
+            {{mediaContent.content}}
+        </div>
+    </div>
+
+</div>
